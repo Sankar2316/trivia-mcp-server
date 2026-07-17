@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "trivia": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "autoApprove": ["get_trivia_questions", "list_trivia_categories", "get_category_stats"]
+    }
+  }
+}
